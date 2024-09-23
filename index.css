@@ -1,0 +1,94 @@
+.navbar {
+    background-color: rgba(8, 119, 58, 1);
+    border-radius: 30px;
+    height: 70px;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin: 0px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 20px 20px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #131313; 
+    font-weight: 400;
+}
+
+.navbar ul li a:hover {
+    background-color: #b1b3b0;
+    border-radius: 20px;
+}
+
+.brand{
+    text-align: center;
+    font-size: 30px;
+    font-family: emoji;
+    background-image: linear-gradient(-180deg,rgb(72, 187, 213),#3498DB);
+}
+
+.brand_list{
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 50px); 
+    width: 100%;
+    background-image: linear-gradient(49deg,black,cyan,gold);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.scroll-container {
+    width: 100%;
+    height: 50px;
+    max-width: 60px;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.content {
+    white-space: nowrap;
+}
+
+
+marquee{
+    border: 0px solid #ccc; 
+    padding: 10px;
+}
+
+.th{
+    height: 300px;
+    width: 40%;
+}
+
+.f{
+    height: 300px;
+    width: 40%;
+}
+
+.cartier{
+    height: 300px;
+    width: 40%;
+}
+
+.s{
+    height: 300px;
+    width: 40%;
+}
+
+.le{
+    height: 300px;
+    width: 60%;
+}

@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 15, 15);
+    color: white;
+}
+
+body.light-mode {
+    background-color: white;
+    color: #0a0a0b;
+}
+
+.Rolex {
+    display: inline-block;
+    margin: 15px;
+    padding: 5px 5px 4px;
+    background-color: rgba(8, 119, 58, 0.8);
+    text-align: center;
+    width: 500px;
+}
+
+.Rolex.light-mode{
+    display: inline-block;
+    margin: 15px;
+    padding: 5px 5px 4px;
+    background-color: rgba(1, 99, 40, 1);
+    text-align: center;
+    width: 500px;
+    border: 10px;
+}
+
+img {
+    height: 400px;
+    width: 500px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 200;
+    margin: 5px 0px 0px 0px;
+    padding: 3px 0px 0px 0px;
+}
+
+.brand {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(8, 119, 58, 0.8);
+    text-align: center;
+    margin: auto;
+}
+
+.brand.light-mode{
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(1, 99, 40, 1);
+    text-align: center;
+    margin: auto;
+}
+
+.Aude {
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    background-color: rgba(8, 119, 58, 0.8);
+    text-align: center;
+    margin: auto;
+}
+
+.Aude.light-mode{
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    background-color: rgba(1, 99, 40, 1);
+    text-align: center;
+    margin: auto;
+}
+
+.patek_phil {
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    background-color: rgba(8, 119, 58, 0.8);
+    text-align: center;
+    margin: auto;
+}
+
+.patek_phil.light-mode{
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    background-color: rgba(1, 99, 40, 1);
+    text-align: center;
+    margin: auto;
+}
+
+.bb{
+    background-image: linear-gradient(-360deg, rgba(8, 119, 58, 0.8), black);
+}
+
+.bb.light-mode{
+    background-image: linear-gradient(-360deg, rgba(8, 119, 58, 0.8),#cdd2c8);
+}
+
+.navbar {
+    background-color: rgba(8, 119, 58, 0.8);
+    border-radius: 20px;
+}
+
+.navbar.light-mode {
+    background-color: rgba(8, 119, 58, 1);
+    border-radius: 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin: 0px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fdfdff;
+}
+
+.navbar ul li a:hover {
+    background-color: #cdd2c8;
+    border-radius: 20px;
+}
+
+.OB {
+    background-color: #313330;
+}
+
+.OB.light-mode {
+    background-color: #fdfdff;
+}
+
+.patek {
+    width: 400px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    border-color: black;
+    border-style: groove;
+    background-color: #f7c80a;
+    box-shadow: 0px 0px 10px rgba(87, 57, 57, 0.1);
+    transition: box-shadow 0.3s ease;
+    transition: height,width 0.3s ease;
+    overflow: hidden;
+}
+
+button:hover{
+    width: 70px;
+}
+
+#mode-toggle {
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    border-color: black;
+    border-style: groove;
+    background-color: #f7c80a;
+    cursor: pointer;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+  
+  .switch-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .switch-label .checkbox {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .checkbox:checked + .slider {
+    transform: translateX(25px);
+  }
+  
+
+.rolexvid{
+    height: 600px;
+}
+
+.divrolex{
+    align-items:center;
+    border: 5px;
+    border-style: groove;
+    border-color: rgba(8, 119, 58, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.rw{
+    display: flexbox;
+    display: wrap;
+}
